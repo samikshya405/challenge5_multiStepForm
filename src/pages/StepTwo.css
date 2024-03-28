@@ -1,0 +1,18 @@
+
+
+.grid-box{
+    height:170px;
+    cursor:pointer;
+    border: 1px solid var(--lightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.grid-box:hover{
+    border-color: var(--purplishBlue) !important;
+}
+
+.yearly{
+    background-color: var(--mangolia);
+}
